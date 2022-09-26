@@ -18,6 +18,16 @@
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 2340
 
+# Bootanimation Resolution
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Charging Animation
+TARGET_INCLUDE_PIXEL_CHARGER := true
+
+# SuperiorOS
+SUPERIOR_OFFICIAL := true
+SUPERIOR_GAPPS := minimal
+
 # Inherit from lava device makefile
 $(call inherit-product, device/xiaomi/lava/device.mk)
 
@@ -27,7 +37,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/superior/config/common.mk)
 
 #
 # All components inherited here go to system_ext image
@@ -37,7 +47,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := lava
-PRODUCT_NAME := lineage_lava
+PRODUCT_NAME := superior_lava
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := xiaomi
 
