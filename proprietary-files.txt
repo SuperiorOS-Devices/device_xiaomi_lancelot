@@ -263,24 +263,13 @@ vendor/lib64/libpq_cust.so
 vendor/lib64/libacdk.so
 
 # NFC
-vendor/lib/hal_libnfc.so
-vendor/lib/nfc_nci.nqx.default.hw_lancelot.so
 vendor/lib/libsn100u_fw.so
-vendor/lib64/hal_libnfc.so
-vendor/lib64/nfc_nci.nqx.default.hw_lancelot.so
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp-pnscr.conf
 vendor/etc/libnfc-nxp.conf
 vendor/etc/libnfc-nxp_RF.conf
-vendor/etc/nfc/nfc_whitelist.properties
 vendor/etc/sn100u_nfcon.pnscr
 vendor/bin/pnscr
-vendor/lib/vendor.nxp.nxpese@1.0.so
-vendor/lib64/vendor.nxp.nxpese@1.0.so
-vendor/bin/hw/vendor.nxp.hardware.nfc@1.2-service_lancelot
-vendor/odm/etc/galahad/android.hardware.nfc@1.0-service.rc:odm/etc/galahad/android.hardware.nfc@1.0-service.rc
-vendor/odm/etc/galahad/vendor.nxp.hardware.nfc@1.2-service_lancelot.rc:odm/etc/galahad/vendor.nxp.hardware.nfc@1.2-service_lancelot.rc
-vendor/odm/etc/galahad/android.hardware.secure_element@1.2-service-mediatek.rc:odm/etc/galahad/android.hardware.secure_element@1.2-service-mediatek.rc
 vendor/etc/sn100u_pnx_chr.pnscr
 vendor/etc/sn100u_pnx_cui.pnscr
 vendor/etc/sn100u_pnx_ese_3.pnscr
@@ -293,6 +282,10 @@ vendor/lib/libverno.so
 vendor/lib64/libverno.so
 vendor/bin/volte_imcb
 vendor/bin/volte_ua
+
+# Secure Element
+vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
+vendor/odm/etc/galahad/android.hardware.secure_element@1.2-service-mediatek.rc:odm/etc/galahad/android.hardware.secure_element@1.2-service-mediatek.rc
 
 # Sensors
 vendor/lib/libnusensor.so
