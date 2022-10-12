@@ -232,9 +232,6 @@ vendor/bin/initprop_bin
 vendor/lib/libcarrierconfig.so
 vendor/lib/libutinterface_custom_md.so
 vendor/lib64/libcarrierconfig.so
-vendor/lib64/libcrypto-ss.so
-vendor/lib64/libcurl-ss.so
-vendor/lib64/libssl-ss.so
 vendor/lib64/libmtk-ril.so
 vendor/lib64/libmtkrilutils.so
 vendor/lib64/librilfusion.so
@@ -243,12 +240,7 @@ vendor/lib64/lib_misd.so
 vendor/etc/init/init.md_apps.rc
 
 # GPS
-vendor/lib/libcharon-ss.so
-vendor/lib/libhydra.so
-vendor/lib/libstrongswan.so
-vendor/lib/libsimaka.so
 vendor/lib64/libsimaka.so
-vendor/lib64/libcharon-ss.so
 vendor/lib64/libhydra.so
 vendor/lib64/libstrongswan.so
 vendor/bin/charon
