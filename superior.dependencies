@@ -15,5 +15,17 @@
 		"target_path": "kernel/xiaomi/mt6768",
 		"branch": "Liella!",
 		"remote": "github"
-	}
-]
+	},
+	{
+		"repository": "LineageOS/android_hardware_mediatek",
+		"target_path": "hardware/mediatek",
+		"branch": "lineage-20",
+		"remote": "github"
+	},
+	{
+		"repository": "LineageOS/android_device_mediatek_sepolicy_vndr",
+		"target_path": "device/mediatek/sepolicy_vndr",
+		"branch": "lineage-20",
+		"remote": "github"
+	}		
+]	
