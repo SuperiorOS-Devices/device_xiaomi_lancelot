@@ -27,5 +27,13 @@
 		"target_path": "device/mediatek/sepolicy_vndr",
 		"branch": "lineage-20",
 		"remote": "github"
-	}		
+	},		
+        {
+                "repository": "onettboots/boolx-clang",
+                "target_path": "prebuilts/clang/host/linux-x86/boolx-clang",
+                "branch": "Clang-17.0_x86",
+                "remote": "gitlab"
+        }
+
 ]	
+
