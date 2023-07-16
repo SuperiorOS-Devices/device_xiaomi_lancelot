@@ -11,7 +11,7 @@
 		"remote": "SuperiorOS-Devices"
 	},
 	{
-		"repository": "JR205-5000/JR205-6768",
+		"repository": "Projects-Corruption-Succubus/KAIC205-6867",
 		"target_path": "kernel/xiaomi/mt6768",
 		"branch": "Liella!",
 		"remote": "github"
